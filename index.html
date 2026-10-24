@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UZone — সদস্য পোর্টাল</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">U</span><span>UZone <small>MEMBER PORTAL</small></span></a>
+    <nav><a href="#features">ফিচার</a><a href="#about">আমাদের সম্পর্কে</a><button class="btn btn-outline" id="loginNav">লগইন</button><button class="btn btn-primary" id="registerNav">অ্যাকাউন্ট খুলুন</button></nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="মেনু">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="pulse"></span> সহজ, নিরাপদ, ব্যবহারবান্ধব</span>
+        <h1>আপনার অনলাইন<br><span>সদস্য পোর্টাল</span></h1>
+        <p>একটি জায়গা থেকেই আপনার প্রোফাইল পরিচালনা করুন, অ্যাকাউন্টের তথ্য দেখুন এবং প্রয়োজনীয় আপডেট পান।</p>
+        <div class="hero-actions"><button class="btn btn-primary btn-large" id="heroRegister">শুরু করুন <span>→</span></button><button class="btn btn-light btn-large" id="heroLogin">সদস্য লগইন</button></div>
+        <div class="trust-row"><span>✓ মোবাইলে ব্যবহারযোগ্য</span><span>✓ সহজ অ্যাকাউন্ট ব্যবস্থাপনা</span></div>
+      </div>
+      <div class="hero-art" aria-label="ড্যাশবোর্ডের নমুনা">
+        <div class="glow"></div><div class="dashboard-card">
+          <div class="dash-top"><span class="mini-logo">U</span><div><b>সদস্য ড্যাশবোর্ড</b><small>আপনার এক নজরে</small></div><span class="dots">•••</span></div>
+          <div class="welcome-box"><small>স্বাগতম</small><h3>আপনার অ্যাকাউন্ট</h3><p>সবকিছু এক জায়গায় রাখুন</p></div>
+          <div class="stat-grid"><div class="stat"><span class="stat-icon purple">◎</span><small>অ্যাকাউন্ট</small><b>সক্রিয়</b></div><div class="stat"><span class="stat-icon green">✓</span><small>প্রোফাইল</small><b>ব্যবস্থাপনা</b></div></div>
+          <div class="activity"><b>সাম্প্রতিক কার্যক্রম</b><div><i></i><span>প্রোফাইল তৈরি<small>আপনার তথ্য সম্পূর্ণ করুন</small></span><strong>›</strong></div><div><i class="blue-dot"></i><span>নিরাপত্তা<small>শক্তিশালী পাসওয়ার্ড ব্যবহার করুন</small></span><strong>›</strong></div></div>
+        </div>
+        <div class="floating-tag"><span>✓</span> সহজ অ্যাকাউন্ট</div>
+      </div>
+    </section>
+
+    <section class="features-section" id="features">
+      <div class="section-heading"><span class="eyebrow">যা যা থাকছে</span><h2>আপনার প্রয়োজনীয় সবকিছু</h2><p>শুরু করার জন্য সহজ ও পরিষ্কার কিছু সুবিধা।</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon purple">♙</div><h3>সদস্য অ্যাকাউন্ট</h3><p>নিজের অ্যাকাউন্ট তৈরি করুন এবং প্রোফাইল তথ্য পরিচালনা করুন।</p></article>
+        <article class="feature-card"><div class="feature-icon blue">▣</div><h3>ব্যক্তিগত ড্যাশবোর্ড</h3><p>লগইন করার পর নিজের সদস্য-তথ্য এক জায়গায় দেখুন।</p></article>
+        <article class="feature-card"><div class="feature-icon green">⚙</div><h3>অ্যাডমিন ব্যবস্থাপনা</h3><p>নিরাপদ সার্ভার যুক্ত হলে অ্যাডমিন সদস্যদের পরিচালনা করতে পারবেন।</p></article>
+      </div>
+    </section>
+    <section class="about" id="about"><div><span class="eyebrow">আমাদের লক্ষ্য</span><h2>সহজ অভিজ্ঞতা,<br>পরিষ্কার ব্যবস্থাপনা</h2></div><p>এই নমুনা ওয়েবসাইটটি একটি সাধারণ সদস্য পোর্টালের প্রাথমিক ডিজাইন। বাস্তবে চালু করার আগে সার্ভার, ডেটাবেস, নিরাপদ লগইন এবং অ্যাডমিন অনুমতি যুক্ত করতে হবে।</p></section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#"><span class="brand-mark">U</span><span>UZone <small>MEMBER PORTAL</small></span></a><p>© 2026 UZone. সদস্য পোর্টাল ডেমো।</p></footer>
+
+  <div class="modal-backdrop" id="modalBackdrop" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="close-modal" id="closeModal" aria-label="বন্ধ করুন">×</button>
+      <div class="modal-logo">U</div><h2 id="modalTitle">অ্যাকাউন্ট খুলুন</h2><p class="modal-subtitle" id="modalSubtitle">আপনার তথ্য দিয়ে শুরু করুন</p>
+      <form id="accountForm">
+        <label id="nameLabel">আপনার নাম<input id="fullName" name="fullName" placeholder="সম্পূর্ণ নাম" autocomplete="name"></label>
+        <label>ইমেইল<input id="email" name="email" type="email" placeholder="name@example.com" autocomplete="email" required></label>
+        <label>পাসওয়ার্ড<input id="password" name="password" type="password" placeholder="কমপক্ষে ৮ অক্ষর" minlength="8" autocomplete="new-password" required></label>
+        <button class="btn btn-primary form-submit" type="submit" id="submitButton">অ্যাকাউন্ট তৈরি করুন</button>
+      </form>
+      <p class="form-note" id="formNote">ডেমো: তথ্য শুধু এই ব্রাউজারে রাখা হবে। এটি বাস্তব নিরাপদ লগইন নয়।</p>
+      <button class="switch-mode" id="switchMode">আগেই অ্যাকাউন্ট আছে? লগইন করুন</button>
+      <div class="message" id="formMessage" role="status"></div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
